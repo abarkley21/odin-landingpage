@@ -43,9 +43,62 @@ a {
     display: flex;
     height: 100%;
     background-color: #1F2937;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.title-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-sign-up {
+    width: 75px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #e5e7eb;
+    border: none;
 }
 
 .title-text-button {
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.mcimage {
+    padding-left: 60px;
+}
+
+.middle1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle1-title {
+    display: flex;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+p {
+    width: 100px;
 }
