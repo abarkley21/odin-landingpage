@@ -85,7 +85,7 @@ a {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
+    background-color: #fdfdfd;
     gap: 60px;
     justify-content: center;
 }
@@ -111,6 +111,32 @@ p {
     color:rgb(87, 85, 85);
     text-align: center;
 }
+
 img {
     border-radius: 5px;
+}
+
+.middle2 {
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    padding: 40px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    align-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:rgb(87, 85, 85);
+    
+}
+
+.who {
+    align-self: end;
+    padding-right: 150px;
 }
