@@ -89,6 +89,7 @@ a {
     background-color: #fdfdfd;
     gap: 60px;
     justify-content: center;
+    padding: 40px;
 }
 
 .middle1-title {
@@ -103,6 +104,10 @@ a {
     display: flex;
     justify-content: center;
     gap: 40px;
+    border-color:#3882f6;
+    border: 5px;
+    flex-wrap: wrap;
+
 }
 
 p {
@@ -157,11 +162,13 @@ img {
 .box {
     display: flex;
     flex-direction: column;
+    gap: 7px;
 }
 
 .sign-up2 {
-    align-content: center;
+    align-self: center;
     display: flex;
+    justify-self: center;
 }
 
 .button2 {
@@ -169,13 +176,25 @@ img {
     border-radius: 5px;
     color:#fdfdfd;
     font-weight: bold;
+    height: 25px;
+    width: 75px;
 }
 
 .outer-middle3 {
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 600px;
+    padding-right: 600px;
+    flex: 1;
+}
+
+.middle3 {
+    display: flex;
+    gap: 20px;
+    flex: 1;
 }
 
 .text1 {
