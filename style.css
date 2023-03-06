@@ -188,3 +188,13 @@ img {
     color:#fdfdfd;
     font-size: 13px;
 }
+
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color:#fdfdfd;
+    font-size: 11px;
+}
